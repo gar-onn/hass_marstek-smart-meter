@@ -82,7 +82,7 @@ After restarting, you can add and configure the integration.
 
 ---
 [hacs-badge]: https://my.home-assistant.io/badges/hacs_repository.svg
-[hacs-link]: https://my.home-assistant.io/redirect/hacs_repository/?owner=d-shmt&repository=hass_marstek-smart-meter&category=integration
+[hacs-link]: https://my.home-assistant.io/redirect/hacs_repository/?owner=gar-onn&repository=hass_marstek-smart-meter&category=integration
 [config-badge]: https://my.home-assistant.io/badges/config_flow_start.svg
 [config-link]: https://my.home-assistant.io/redirect/config_flow_start/?domain=marstek_ct
 
