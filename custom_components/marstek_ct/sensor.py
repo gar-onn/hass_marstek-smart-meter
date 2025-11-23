@@ -15,6 +15,7 @@ from .const import DOMAIN
 
 SENSOR_DESCRIPTIONS: tuple[SensorEntityDescription, ...] = (
     # ... (Die Liste deiner Sensor-Beschreibungen bleibt unverändert)
+    SensorEntityDescription(key="cumulative_power", translation_key="cumulative_power", device_class=SensorDeviceClass.POWER, native_unit_of_measurement=UnitOfPower.WATT, state_class=SensorStateClass.MEASUREMENT),
     SensorEntityDescription(key="total_power", translation_key="total_power", device_class=SensorDeviceClass.POWER, native_unit_of_measurement=UnitOfPower.WATT, state_class=SensorStateClass.MEASUREMENT),
     SensorEntityDescription(key="wifi_rssi", translation_key="wifi_rssi", device_class=SensorDeviceClass.SIGNAL_STRENGTH, native_unit_of_measurement=SIGNAL_STRENGTH_DECIBELS_MILLIWATT, state_class=SensorStateClass.MEASUREMENT),
     SensorEntityDescription(key="A_phase_power", translation_key="a_phase_power", device_class=SensorDeviceClass.POWER, native_unit_of_measurement=UnitOfPower.WATT, state_class=SensorStateClass.MEASUREMENT),
